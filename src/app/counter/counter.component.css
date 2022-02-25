@@ -1,0 +1,32 @@
+h1 {
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.countContainer {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+button {
+    width: 30px;
+    height: 40px;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 4px;
+    margin: 0px 10px;
+}
+
+p {
+    border: 1px solid rgb(221, 197, 152);
+    font-size: 20px;
+    color: black;
+    padding: 8px;
+    border-radius: 4px;
+}
