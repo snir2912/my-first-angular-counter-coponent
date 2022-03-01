@@ -12,7 +12,10 @@ export class CounterComponent implements OnInit {
     this.count++
   }
   minus(){
-    this.count--
+    if(this.count>0){
+      this.count--
+    }
+    
   }
   constructor() { }
 
